@@ -3,6 +3,7 @@ var recipes = {
   flour: "2 cups"
 };
 
+var newObj = Object.assign({}, object);
 
 
 function updateObjectWithKeyAndValue(object, key, value) {
